@@ -6,7 +6,7 @@ except ImportError:
     print("No module named 'google' found")
 
 # to search
-query = "recette " + os.environ['plat']
+query = "recette " + os.environ['PLAT_FAVORIS']
 
 for j in search(query, tld="co.in", num=10, stop=10, pause=2):
     print(j)
