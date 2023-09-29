@@ -20,5 +20,5 @@ stage('Get answer') {
 }
 stage('Send Python') {
     echo "toujours pas"
-    sh 'python3 prout.py'
+    sh 'ls'
 }
